@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="student-dashboard">
+        <h2>Welcome, Student</h2>
+        <input type="text" id="search-teacher" placeholder="Search Teacher">
+        <button onclick="searchTeacher()">Search</button>
+        <h3>Available Teachers</h3>
+        <div id="teacher-list"></div>
+    </section>
+    <footer>
+        <p>© 2024 Student-Teacher Appointment System</p>
+    </footer>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
